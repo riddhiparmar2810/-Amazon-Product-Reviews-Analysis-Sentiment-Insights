@@ -21,15 +21,15 @@ This project analyzes Amazon product reviews to extract meaningful insights thro
 6. **Evaluation and Visualization**: Accuracy score, classification report, and various plots.
 
 ## Results & Conclusion
-1.The dataset had over 500,000 Amazon product reviews with various attributes like score, text, summary, and timestamp.
-2.Most of the reviews were positive (scores 4 and 5), showing overall customer satisfaction.
-3.Null values were minimal and were handled with imputation or removal of unnecessary columns.
-4.After cleaning the text data, we observed frequent words like "great", "love", and "product", especially in positive reviews.
-5.Score 3 was treated as neutral and excluded from sentiment analysis to avoid ambiguity.
-6.Sentiment labeling helped classify reviews into Positive and Negative categories.
-7.WordCloud and bar graphs helped visualize common words and score distribution clearly.
-8.Monthly review trends showed periods of high review activity.
-9.This analysis gives useful insights into customer opinions, product popularity, and areas for improvement.
+1. The dataset contains over 500,000 Amazon product reviews with various attributes including score, review text, summary, and timestamp.
+2. Most of the reviews were labeled as positive (scores 4 and 5), showing overall customer satisfaction.
+3. Null values were minimal and handled by imputation or dropping irrelevant columns.
+4. After text cleaning, commonly used positive words included “great”, “love”, and “product”.
+5. Score 3 (neutral) reviews were excluded from final sentiment classification to avoid ambiguity.
+6. Sentiment labeling helped in distinguishing between positive and negative feedback effectively.
+7. WordClouds and bar plots provided useful visual insights into review content and score distribution.
+8. Time-based trend analysis showed periods with high review activity.
+9. The overall analysis offers valuable insights into customer opinions, frequently used words, product popularity, and improvement areas.
 
 ## Technologies Used
 - Python (pandas, numpy, matplotlib, seaborn, sklearn, wordcloud)
@@ -37,4 +37,4 @@ This project analyzes Amazon product reviews to extract meaningful insights thro
 
 ## Author
 Riddhi Parmar  
-[GitHub](https://github.com/riddhiparmar2810) | [LinkedIn]([your-linkedin-profile-link](https://www.linkedin.com/in/riddhi-parmar-920b43251/))
+[GitHub](https://github.com/riddhiparmar2810) | [LinkedIn](https://www.linkedin.com/in/riddhi-parmar-920b43251/)
