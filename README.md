@@ -21,9 +21,15 @@ This project analyzes Amazon product reviews to extract meaningful insights thro
 6. **Evaluation and Visualization**: Accuracy score, classification report, and various plots.
 
 ## Results & Conclusion
-- Majority of reviews are positive.
-- Logistic Regression model shows decent accuracy for sentiment classification.
-- WordClouds highlight common words in positive and negative sentiments.
+1.The dataset had over 500,000 Amazon product reviews with various attributes like score, text, summary, and timestamp.
+2.Most of the reviews were positive (scores 4 and 5), showing overall customer satisfaction.
+3.Null values were minimal and were handled with imputation or removal of unnecessary columns.
+4.After cleaning the text data, we observed frequent words like "great", "love", and "product", especially in positive reviews.
+5.Score 3 was treated as neutral and excluded from sentiment analysis to avoid ambiguity.
+6.Sentiment labeling helped classify reviews into Positive and Negative categories.
+7.WordCloud and bar graphs helped visualize common words and score distribution clearly.
+8.Monthly review trends showed periods of high review activity.
+9.This analysis gives useful insights into customer opinions, product popularity, and areas for improvement.
 
 ## Technologies Used
 - Python (pandas, numpy, matplotlib, seaborn, sklearn, wordcloud)
